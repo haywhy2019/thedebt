@@ -39,8 +39,8 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="container mx-auto icon-text-position">
-          <div className="row justify-content-md-center width-small">
+        <div className="container icon-text-position">
+          <div className="row width-small">
             <div className="col-md">
               <svg className="headericon">
                 <use href={Icon + "#icon-users"} />
