@@ -1,0 +1,11 @@
+@import "./styles/abstract/mixins";
+@import "./styles/abstract/variables";
+
+// @import "./styles/base/base";
+@import "./styles/base/typography";
+@import "./styles/base/utilities";
+ 
+@import "./styles/pages/navbar";
+@import "./styles/pages/dashboard";
+@import "./styles//pages/footer";
+@import "./styles/pages/home";

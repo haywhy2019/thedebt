@@ -1,0 +1,102 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: black;
+}
+
+
+.headingtext{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+    &--l{
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 900;
+        display: inline-block;
+    }
+
+    &__sub{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    &__sub-l{
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: left;
+    }
+    &--secondary{
+        font-size: 2rem;
+    text-align: center; 
+    }
+}
+
+.heading{
+    &__sub{
+        font-size: 1rem;
+        text-align: center; 
+    
+    }
+    &__sub2{
+        font-size: 1.5rem;
+        text-align: center; 
+        font-weight: bold;
+    
+    }
+}
+
+.icontext{
+    font-size: .8rem;
+    display: inline-block;
+    margin-left: 1rem;
+    text-transform: capitalize;
+    text-align: left;
+    width: 7rem;  
+    
+}
+
+.startedtext{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+
+    &__sub{
+        font-size: .8rem;
+        font-weight: normal;
+        text-align: center;
+        width: 14rem;
+        margin: 0 auto;
+    }
+    &__sub2{
+        font-size: .8rem;
+        font-weight: normal;
+        text-align: center;
+        width: 15rem;
+        margin: 0 auto;
+    }
+}
+
+
+
+.buttontext{
+    color: white;
+    font-size: 1rem;
+}
+
+.text-width{
+    &-s{
+        width: 30rem;
+        margin: 0 auto;
+    }
+}
+
+.steptext{
+width: 13rem;
+font-size: .8rem;
+text-align: center;
+margin: 0 auto;
+}
+

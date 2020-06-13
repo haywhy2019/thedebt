@@ -1,0 +1,157 @@
+.herobackground {
+  height: 100vh;
+  border-style: solid;
+  border-color: rgb(251, 213, 220);
+  border-width: 3rem 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-text-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headerbutton {
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.hero-button-position {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-text-position {
+  position: absolute;
+  top: 89%;
+}
+.headericon {
+  width: 2rem;
+  height: 2rem;
+  fill: rgb(145, 145, 255);
+  display: inline-block;
+  margin-bottom: 1.5rem;
+ stroke: black;
+ stroke-width: 1;
+
+ &__1{
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+ stroke: black;
+ stroke-width: 1px;
+
+  fill:  rgb(251, 213, 220);
+ }
+
+
+}
+
+.logosize {
+  width: 5rem;
+  margin-left: 5rem;
+}
+
+.startedicon {
+  width: 3rem;
+  height: 3rem;
+  fill:black;
+  display: inline-block;
+  margin-left: 6rem;
+  margin-bottom: 2rem;
+}
+
+.boxline1 {
+  border-style: solid;
+  border-right: black;
+  height: 25rem;
+  width: 15rem;
+}
+
+.boxline2 {
+  border-style: solid;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  height: 25rem;
+  width: 15rem;
+}
+.boxline3 {
+  border-style: solid;
+  border-left: black;
+  height: 25rem;
+  margin-left: 1rem;
+  width: 15rem;
+}
+.boxline4 {
+  border-style: solid;
+  border-left: black;
+  margin-top: 2rem;
+  height: 25rem;
+  width: 15rem;
+  margin-left: 0.3rem;
+}
+
+.boxedtext {
+  width: 10rem;
+  font-size: 1rem;
+}
+
+.boxedicon {
+  width: 4rem;
+  height: 4rem;
+  fill: rgb(153, 45, 5);
+  display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+  stroke: black;
+ stroke-width: 1;
+}
+.boxedicon2 {
+  width: 4rem;
+  height: 4rem;
+  fill: rgb(251, 213, 220);
+  display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+  stroke: black;
+ stroke-width: 1;
+}
+
+.boxedicon3 {
+  width: 4rem;
+  height: 4rem;
+  fill: rgb(139, 223, 139);
+  display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+  stroke: black;
+ stroke-width: 1;
+}
+
+.stepicon {
+  fill: rgb(250, 120, 144);
+  stroke: black;
+ stroke-width: 1;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 9rem;
+}
+
+.rightborder {
+  border-right-style: solid;
+  color: black;
+  border-width: 0.2rem;
+}
+
+.home-last {
+  padding: 5rem;
+  background-color: rgb(251, 213, 220);
+}

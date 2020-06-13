@@ -1,0 +1,17 @@
+.logo{
+    font-weight: bold;
+    &--red{
+        color: red;
+        font-weight: bold;
+    }
+}
+
+.navlink{
+    font-size: .8rem;
+}
+
+.navborder{
+    border-style: solid;
+  margin-left: 1rem;
+  background-color:  rgb(251, 213, 220);
+}
