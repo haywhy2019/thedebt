@@ -173,6 +173,10 @@
   width: 4rem;
   height: 4rem;
   margin-left: 9rem;
+  @media(max-width: 768px){
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .rightborder {
