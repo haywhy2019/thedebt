@@ -10,6 +10,10 @@ body {
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
+    @media (max-width: 768px){
+        font-size: 2rem;
+    }
+   
 
     &--l{
         text-align: left;
@@ -22,6 +26,9 @@ body {
         font-size: 1.5rem;
         font-weight: bold;
         text-align: center;
+        @media (max-width: 768px){
+            font-size: 1rem;
+        }
     }
     &__sub-l{
         font-size: 1.2rem;
@@ -31,6 +38,9 @@ body {
     &--secondary{
         font-size: 2rem;
     text-align: center; 
+    @media(max-width: 768px) {
+        font-size: 1rem;
+    }
     }
 }
 
@@ -38,6 +48,7 @@ body {
     &__sub{
         font-size: 1rem;
         text-align: center; 
+       
     
     }
     &__sub2{
@@ -90,6 +101,9 @@ body {
     &-s{
         width: 30rem;
         margin: 0 auto;
+        @media (max-width: 768px){
+         width: 20rem;
+        }
     }
 }
 
