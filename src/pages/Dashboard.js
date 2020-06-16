@@ -1,6 +1,9 @@
 import React from "react";
 import Icon from "../assets/icons/sprite.svg";
 import profileimg from "../assets/images/profilephoto.jpg";
+import gerimg from "../assets/images/ger.jpg";
+import ukimg from "../assets/images/ukflag.jpg";
+
 
 export default function Dashboard() {
   return (
@@ -94,10 +97,10 @@ const Adminleft = () => {
       </div>
 
       <div>
-        <svg className="icon-d">
+        <svg className="icon-d active-icon">
           <use href={Icon + "#icon-tab"} />
         </svg>
-        <p className="dash__text-s ml-3">Send Money</p>
+        <p className="dash__text-s ml-3 active-font">Send Money</p>
       </div>
 
       <div>
@@ -139,7 +142,7 @@ const Adminmid1 = () => {
           <label for="country" className="dash__text-s mr-4">
             From:
           </label>
-          <img />
+          <img className="country-img"src={ukimg} alt="country_logo"/>
           <select
             id="country"
             name="country"
@@ -178,7 +181,7 @@ const Adminmid2 = () => {
           <label for="country" className="dash__text-s mr-5">
             To:
           </label>
-          <img />
+          <img className="country-img" src={gerimg} alt="country_logo"/>
           <select
             id="country"
             name="country"
@@ -221,7 +224,7 @@ const Adminmid2 = () => {
 const Adminmid3 = () => {
   return (
     <div>
-      <div className="price-bg mb-3">
+      <div className="price-bg-active mb-3">
         <div className="mt-2">
           <label className="checkbox">
             <h3 className="dash__text-m bold-txt">
@@ -274,8 +277,10 @@ const Adminright = () => {
       <div  class="d-flex justify-content-start ml-3">
        
         <div className="section1">
-          <p className="dash__text-s bold-txt mr-4">10,000.00</p>
-          <img />
+          <p className="dash__text-s bold-txt mr-4 margin-btm-s">10,000.00</p>
+          <br/>
+          <img className="country-img" src={ukimg} alt="country_logo"/>
+          <p className="dash__text-s ml-1">GPS</p>
         </div>
        
         <div className="icon-round-bg-s">
@@ -284,8 +289,10 @@ const Adminright = () => {
           </svg>
         </div>
         <div>
-          <p className="dash__text-s bold-txt ml-4">11,152.85</p>
-          <img />
+          <p className="dash__text-s bold-txt ml-4 margin-btm-s">11,152.85</p>
+          <br />
+          <img className="country-img ml-3" src={gerimg} alt="country_logo"/>
+          <p className="dash__text-s ml-1">EUR</p>
         </div>
         
       </div>
