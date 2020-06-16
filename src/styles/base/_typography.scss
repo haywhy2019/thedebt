@@ -120,3 +120,34 @@ text-align: center;
 margin: 0 auto;
 }
 
+.profilename-text{
+font-size: .8rem;
+font-weight: bold;
+text-align: center;
+display: inline-block;
+
+}
+
+.dash{
+    &__userdetails{
+        font-size: .6rem;
+    }
+    &__text-s{
+        font-size: .6rem;
+        display: inline-block;
+        
+    }
+    &__text-m{
+        font-size: .9rem;
+        display: inline-block;
+    }
+    &__text-b{
+font-size: 1.5rem;
+font-weight: bold;
+    }
+}
+
+.block{
+    display: block;
+}
+

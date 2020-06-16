@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import Navbar from "../components/navbar/Navbar"
 import Icon from "../assets/icons/sprite.svg";
 import logo1 from "../assets/images/logo1.png";
 import logo2 from "../assets/images/logo2.png";
@@ -9,6 +10,7 @@ import logo3 from "../assets/images/logo3.png";
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Header />
       <Headersection1 />
       <Headersection2 />
